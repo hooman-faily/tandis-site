@@ -73,21 +73,21 @@ setOpen3(false)
 
     <div className='sm:w-full sm:flex sm:justify-between sm:items-center sm:p-5 font-smilbold  text-lg relative'>
     {/* logo */}
-    <div className='sm:w-[10%]'>your Logo</div>
+    <div className='sm:w-[10%]'><Link to={"/"}>your Logo</Link></div>
     {/* nav */}
     <nav className='sm:w-[60%]'>
                 <ul className='sm:flex sm:justify-around uppercase'>
-                    <li onMouseEnter={showHandler} onMouseLeave={leaveHandler}  className='relative cursor-default' ><div>what we do</div>
+                    <li onMouseEnter={showHandler} onMouseLeave={leaveHandler}  className='relative cursor-default font-brandonBold sm:text-sm' ><div>what we do</div>
                     
                     {show   ?    <ul className='bg-black sm:flex sm:flex-col sm:p-7 sm:gap-7 font-brandonBold absolute sm:w-[300px] z-50'>
-                          <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>clinic experience</li></Link>
+                          <Link to={"/clinicExperience"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>clinic experience</li></Link>
                           <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>cosmetic dentistry</li></Link>
                           <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>porcelain veneers</li></Link>
                           <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>small makeover process</li></Link>
                         </ul>:""}
                   
                     </li>
-                    <li  className='cursor-default relative' onMouseEnter={showHandler2} onMouseLeave={leaveHandler2}><div>who we are</div>
+                    <li  className='cursor-default relative font-brandonBold sm:text-sm' onMouseEnter={showHandler2} onMouseLeave={leaveHandler2}><div>who we are</div>
                      {show2   ?    <ul className='bg-black sm:flex sm:flex-col font-brandonBold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
                           <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>about us</li></Link>
                           <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>dr behnam</li></Link>
@@ -97,7 +97,7 @@ setOpen3(false)
                         </ul>:""}
                     
                     </li>
-                    <li className='cursor-default' onMouseEnter={showHandler3} onMouseLeave={leaveHandler3}><div>our work</div>
+                    <li className='cursor-default font-brandonBold sm:text-sm relative' onMouseEnter={showHandler3} onMouseLeave={leaveHandler3}><div>our work</div>
                        {show3   ?    <ul className='bg-black sm:flex sm:flex-col font-brandonBold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
                           <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>before/after photos</li></Link>
                           <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>patient testimonials</li></Link>
@@ -115,7 +115,7 @@ setOpen3(false)
   
 <div className={openMenu? "bg-black sm:translate-x-0 transform transition-all ease-linear  sm:fixed z-50 sm:top-0 sm:right-0 sm:h-dvh sm:w-dvw sm:z-[60] sm:p-10 sm:flex sm:flex-col sm:items-center": "bg-black sm:translate-x-full z-50 transform transition-all  ease-linear  sm:fixed sm:top-0 sm:right-0 sm:h-dvh sm:w-dvw sm:z-[60] sm:p-10 sm:flex sm:flex-col sm:items-center" }>
                         <div className='text-white'>your logo</div>
-                        <div className='text-white font-brandonLight sm:flex sm:items-center sm:justify-between sm:w-[60%] sm:p-5 sm:relative'><span className={open1? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>what we do</span><span>{open1 ===false ?<svg onClick={openHandler1} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler1} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</span>
+                        <div className='text-white font-brandonLight sm:flex sm:items-center sm:justify-between sm:w-[60%] sm:p-5 sm:relative'><span className={open1? "cursore-pointer font-brandon text-[#A2D1DC]":"curser-pointer text-white"}>what we do</span><span>{open1 ===false ?<svg onClick={openHandler1} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler1} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</span>
                      
                         
                         </div>

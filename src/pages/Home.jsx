@@ -9,12 +9,13 @@ import {  Autoplay, EffectFade} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import BeforeAndAfter from '../components/BeforeAndAfter'
+import Layout from '../components/Layout'
 
 const Home = () => {
 
   return (
-    <div>
-    <Header/>
+    <Layout>
+ 
     <div className="w-full relative h-[700px] bg-no-repeat bg-cover bg-[url('assets/photos/image0.jpeg')]">
         <div className='absolute w-full h-full top-0 left-0 bg-black opacity-15 z-10'>
 
@@ -99,8 +100,8 @@ const Home = () => {
     <h1 className='w-full text-center font-brandonBold sm:text-2xl uppercase'>Dentistry reimagined</h1>
     <p className='text-center font-brandon text-xl sm:w-[70%] m-auto'>Apa Aesthetic represents the highest echelon of talent from across the globe and stands unrivaled in innovation, creativity, and skill. Prioritizing both the clinical results and the patient experience, the practice offers cosmetic dentistry, reimagined.</p>
     </section>
-    <section className='flex'>
-            <div className='w-[33.33%] h-[600px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/s1.jpg")]'>
+    <section className='sm:flex'>
+            <div className='sm:w-[33.33%] sm:h-[600px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/s1.jpg")]'>
               <div className='w-full h-full bg-black opacity-35 absolute top-0 left-0'>
      
               </div>
@@ -110,7 +111,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='w-[33.33%] h-[600px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/s2.jpg")]'>
+            <div className='sm:w-[33.33%] sm:h-[600px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/s2.jpg")]'>
               <div className='w-full h-full bg-black opacity-35 absolute top-0 left-0'>
      
               </div>
@@ -119,7 +120,7 @@ const Home = () => {
                 <p className='text-white w-full   font-brandon'>Restored teeth should look like teeth. Apa Aesthetic promises a smile makeover with undetectable work and transformative results, so your teeth don't enter a room before you do.</p>
               </div>
             </div>
-             <div className='w-[33.33%] h-[600px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/s3.jpg")]'>
+             <div className='sm:w-[33.33%] sm:h-[600px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/s3.jpg")]'>
               <div className='w-full h-full bg-black opacity-35 absolute top-0 left-0'>
      
               </div>
@@ -130,7 +131,18 @@ const Home = () => {
             </div>
 
     </section>
+    {/* know dr behnam */}
+    <section className='w-full h-[700px]'>
+    <div className='w-full sm:h-[700px] bg-cover bg-no-repeat bg-[url("assets/photos/dr.jpg")] relative'>
+        <div>
+           <h1>Meet the man behind the brand</h1>
+           <p></p>
+        </div>
     </div>
+
+
+    </section>
+    </Layout>
   )
 }
 
