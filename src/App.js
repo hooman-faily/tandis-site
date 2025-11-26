@@ -6,11 +6,11 @@ import Home from './pages/Home';
 import Admin from './pages/Admin';
 import ClinicExperience from './pages/ClinicExperience';
 
-
+const basename = process.env.PUBLIC_URL;
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
    <Routes>
    <Route>
         <Route path='/' element={<Home/>}/>
