@@ -71,7 +71,7 @@ Samen bespreken we de mogelijkheden en nemen we beslissingen in overleg.</p>
                     <div className='sm:w-1/2  sm:h-[600px] w-full h-[300px] bg-center bg-cover  bg-[url("assets/photos/unitPic.jpg")]'></div>
 
                     </div>
-                    <BeforeAndAfter/>
+                    {/* <BeforeAndAfter/> */}
 
     </Layout>
   )

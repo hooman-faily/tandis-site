@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
+
 const CosmeticDentistry = () => {
   return (
     <Layout>
@@ -43,7 +44,7 @@ Een glimlach die goed functioneert, ziet er vanzelf goed uit.</p>
             {/* picture of dr working container */}
     <div className='sm:w-1/2 sm:h-[600px]  w-full h-[400px] sm:p-5'>
 
-            <div className='sm:w-full sm:h-full bg-[url("assets/photos/drWorking.jpg")] sm:bg-center sm:bg-cover w-full h-full bg-center bg-cover'></div>
+            <div className='sm:w-full sm:h-full bg-[url("assets/photos/laboratory1.jpg")] sm:bg-center sm:bg-cover w-full h-full bg-center bg-cover'></div>
     </div>
                 </div>
 

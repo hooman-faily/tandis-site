@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import BeforeAndAfter from '../components/BeforeAndAfter'
 import LazyBackground from '../components/LazyBackground'
-import smileMakeover from '../assets/photos/smileMakeover.jpg'
+import smileMakeover from '../assets/photos/laboratory2.jpg'
 import makeover from '../assets/photos/makeover.jpg'
 import RevealOnScroll from '../components/RevealOnScroll'
 const SmileMakeover = () => {
@@ -65,7 +65,7 @@ en het verminderen van toekomstige behandelbehoeften.</p>
     </div>
 
 
-    <div className='w-[45%] sm:h-[600px] bg-[url("assets/photos/drMakeover.jpg")] sm:bg-center sm:bg-cover'>
+    <div className='w-[45%] sm:h-[600px] bg-[url("assets/photos/laboratory2.jpg")] sm:bg-center sm:bg-cover'>
 
 
     </div>
@@ -73,7 +73,7 @@ en het verminderen van toekomstige behandelbehoeften.</p>
     </div>
     </RevealOnScroll>
 
-    <BeforeAndAfter/>
+    {/* <BeforeAndAfter/> */}
     </Layout>
   )
 }

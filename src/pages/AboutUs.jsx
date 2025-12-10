@@ -10,7 +10,7 @@ import swiper3 from "../assets/photos/swiper3.jpg"
 const AboutUs = () => {
   return (
     <Layout>
-                        <section className='w-full sm:h-[800px] bg-[url("assets/photos/aboutUs.jpg")] sm:bg-cover sm:bg-center relative h-[400px] bg-center bg-cover'>
+                        <section className='w-full sm:h-[800px] bg-[url("assets/photos/tandis3.jpg")] sm:bg-cover sm:bg-center relative h-[400px] bg-center bg-cover'>
                                 <div className='w-full h-full abolute top-0 left-0 bg-black opacity-25 z-5'></div>
                                 <div className='absolute z-10 top-0 left-0 w-full h-full flex flex-col justify-center sm:items-start items-center  p-5 sm:p-8 gap-5'>
                                     <h1 className='text-white sm:text-3xl text-2xl font-brandonBold w-full'>EXPERIENCE WANT-BASED DENTISTRY</h1>
@@ -28,7 +28,7 @@ const AboutUs = () => {
                         </section>
 
                         <section className='w-full p-5 sm:fle sm:gap-0 sm:flex-row sm:justify-between flex flex-col gap-10'>
-              <div className='sm:w-[49%] w-full sm:h-[700px] h-[350px] bg-center bg-cover bg-[url("assets/photos/Meet-Dr.-Apa-Image-scaled.jpg")] relative'>
+              <div className='sm:w-[49%] w-full sm:h-[700px] h-[350px] bg-center bg-cover bg-[url("assets/photos/ChatOn-image-(1).jpg")] relative'>
                   <div className='absolute sm:bg-white top-[40%] left-[20%]  sm:top-[90%] sm:left-16 sm:w-[80%] sm:h-[150px] p-5 sm:flex sm:flex-row sm:justify-center sm:items-start '>
                   <div className='sm:text-black text-white sm:text-xl font-brandonBold  uppercase hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-white sm:border-black hover:border-none group inline-block'>meet dr.behnam
                               <span className='block h-[2px] bg-[#A2D1DC] mt-1 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100'></span>
@@ -39,7 +39,7 @@ const AboutUs = () => {
 
               </div>
 
-             <div className='sm:w-[49%] w-full sm:h-[700px] h-[350px] bg-center bg-cover bg-[url("assets/photos/Meet-Our-Team-Image-V2.jpg")] relative'>
+             <div className='sm:w-[49%] w-full sm:h-[700px] h-[350px] bg-center bg-cover bg-[url("assets/photos/dental-team.jpg")] relative'>
                   <div className='absolute sm:bg-white top-[40%] left-[20%]   sm:top-[90%] sm:left-16 sm:w-[80%] sm:h-[150px] p-5 flex justify-center items-start'>
                   <div className='sm:text-black text-white sm:text-xl font-brandonBold  uppercase hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-white sm:border-black hover:border-none group inline-block'>meet the team
                               <span className='block h-[2px] bg-[#A2D1DC] mt-1 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100'></span>

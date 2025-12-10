@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import artistry from "../assets/photos/Dentistry-as-Artistry-Image-panorama-73134d7aac218e0a729061d16394bac5-seu6g87koxi5.jpg"
-import unmatched from "../assets/photos/Unmatched-in-Quality-Image-panorama-bd255f5588a16e3c3ac052cec0808f10-syqrh407lnkw.jpg"
 import impossible from "../assets/photos/Impossible-to-Replicate-Image-panorama-af0feaa553d82aae8cdcd0e318d3346f-yzqcri75k86e.jpg"
 import { Swiper, SwiperSlide  } from "swiper/react";
 import {  Autoplay, EffectFade} from "swiper/modules";
@@ -14,12 +12,25 @@ import LazyBackground from '../components/LazyBackground';
 import img0 from '../assets/photos/image0.jpeg'
 import location from '../assets/photos/location.png';
 import doctor from '../assets/photos/ChatOn-image-(1).jpg'
-const Home = () => {
+import tools from '../assets/photos/tools.jpeg'
+import ortho from '../assets/photos/ortho.jpeg'
+import tools2 from '../assets/photos/tools2.jpeg'
+import tooth2 from '../assets/photos/tooth2.jpeg'
 
+const Home = () => {
 
 
   return (
     <Layout>
+ 
+    <section className='w-full relative sm:h-[700px] h-[500px]  bg-cover bg-center sm:bg-top bg-[url("assets/photos/newImage.png")] mb-5'>
+        <div className='absolute top-0 left-0 w-full h-full bg-black opacity-45'></div>
+        <div className='w-full h-full absolute top-0 left-0 sm:w-1/2 p-8 flex flex-col justify-center items-start gap-10 sm:gap-20'>
+          <p className='font-brandon text-white text-3xl '>In Tandis Tandartspraktijk hechten wii waarde aan de specifieke behoeften van elke patient en luisteren wij daar met aandacht naar.</p>
+          <Link to={"/location"}   className='bg-[#A2D1DC] min-w-[100px] text-white font-brandonBold p-5 rounded-xl'>AFSPRAAK MAKEN</Link>
+        </div>
+
+    </section>
       <Swiper
          modules={[Autoplay, EffectFade]}
       effect="fade"
@@ -68,23 +79,23 @@ const Home = () => {
 Ga je niet graag naar de tandarts? Dan nodigen we je uit om bij ons het verschil te ervaren. Onze persoonlijke begeleiding en warme sfeer zorgen ervoor dat je je meteen thuis voelt. Smile Dental Clinic: waar jouw gezonde, stralende glimlach onze prioriteit is.</p>
     <div className='w-full sm:flex sm:flex-row flex flex-col'>
                 <div className='sm:w-[33%] w-full sm:mt-1 mt-5 flex flex-col gap-2 font-brandon'>
-                  <div> <img src={artistry} alt='artistry'/></div>
+                  <div className='sm:h-[400px] h-[300px] w-full'> <img className='h-full w-full object-cover' src={tools} alt='artistry'/></div>
                  <div className='w-full sm:p-3 p-3'>
                      <h1 className='text-2xl font-brandonBold uppercase'><Link className='hover:text-[#A2D1DC]'>De Kunst van Moderne Tandheelkunde</Link></h1>
                   <p className='text-lg'>Digitale precisie en ambachtelijke expertise komen samen voor een glimlach die écht transformeert.</p>
                  </div>
                 </div>
                  <div className='sm:w-[33%] w-full flex flex-col sm:mt-1 mt-5 gap-2 font-brandon'>
-                  <div> <img src={unmatched} alt='artistry'/></div>
+                  <div className='sm:h-[400px] h-[300px] w-full'> <img className='h-full w-full object-cover' src={doctor} alt='artistry'/></div>
                     <div className='w-full sm:p-3 p-3'>
                          <h1 className='text-2xl font-brandonBold uppercase'><Link className='hover:text-[#A2D1DC]'>Een Nieuwe Standaard van Kwaliteit</Link></h1>
                   <p className='text-lg'>Met zorg ontworpen en met precisie uitgevoerd — ervaar tandheelkunde waarbij kwaliteit geen belofte is, maar de basis.</p>
                     </div>
                 </div>
                 <div className='sm:w-[33%] flex flex-col gap-2 sm:mt-1 mt-5  font-brandon'>
-                  <div> <img src={impossible} alt='artistry'/></div>
+                  <div className='sm:h-[400px] h-[300px] w-full'> <img className='w-full h-full object-cover' src={ortho} alt='artistry'/></div>
                     <div className='w-full sm:p-3 p-3'>
-                         <h1 className='text-2xl font-brandonBold uppercase'><Link className='hover:text-[#A2D1DC]'>Uniek voor Jou, Onmogelijk te Kopiëren</Link></h1>
+                         <h1 className='text-2xl  font-brandonBold uppercase'><Link className='hover:text-[#A2D1DC]'>Uniek voor Jou, Onmogelijk te Kopiëren</Link></h1>
                   <p className='text-lg'>Onze aanpak combineert geavanceerde cosmetische tandheelkunde met verfijnd vakmanschap. Zo ontstaat een glimlach die volledig uniek is—natuurlijk, authentiek en helemaal van jou.</p>
                     </div>
                 </div>
@@ -109,9 +120,9 @@ Ga je niet graag naar de tandarts? Dan nodigen we je uit om bij ons het verschil
       className=" !relative !h-full"
         >
 
-          <SwiperSlide className='!w-full !h-full'><img className='!h-full sm:object-cover  object-cover' src={artistry} alt=''/></SwiperSlide>
-          <SwiperSlide className='!w-full !h-full'><img className='!h-full sm:object-cover  object-cover' src={unmatched} alt=''/></SwiperSlide>
-          <SwiperSlide className='!w-full !h-full'><img className='!h-full sm:object-cover  object-cover' src={impossible} alt=''/></SwiperSlide>
+          <SwiperSlide className='!w-full !h-full'><img className='!h-full w-full sm:object-cover  object-cover' src={tooth2} alt=''/></SwiperSlide>
+          <SwiperSlide className='!w-full !h-full'><img className='!h-full w-full sm:object-cover  object-cover' src={tools2} alt=''/></SwiperSlide>
+          <SwiperSlide className='!w-full !h-full'><img className='!h-full w-full sm:object-cover  object-cover' src={impossible} alt=''/></SwiperSlide>
           <div className='absolute top-0 left-0 w-full h-full bg-black z-10 opacity-35'>
 
           </div>
@@ -134,7 +145,7 @@ Vanaf het moment dat je binnenstapt, begint een unieke reis die volledig rond jo
     </section>
   
 
-<BeforeAndAfter/>
+{/* <BeforeAndAfter/> */}
 
     
     <RevealOnScroll className='w-full bg-black text-white sm:p-5 p-5'>
@@ -152,7 +163,7 @@ Vanaf het moment dat je binnenstapt, begint een unieke reis die volledig rond jo
               </div>
             </div>
 
-            <div className='sm:w-[33.33%] w-full sm:h-[600px] h-[400px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/s2.jpg")]'>
+            <div className='sm:w-[33.33%] w-full sm:h-[600px] h-[400px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/tandis2.jpg")]'>
               <div className='w-full h-full bg-black opacity-35 absolute top-0 left-0'>
      
               </div>
@@ -161,7 +172,7 @@ Vanaf het moment dat je binnenstapt, begint een unieke reis die volledig rond jo
                 <p className='text-white w-full   font-brandon'>Herstellingen van tanden moeten eruitzien én aanvoelen als echte tanden. Bij Tandis zorgen we voor een natuurlijke glimlach door nauwkeurig, bijna onzichtbaar werk dat jouw uitstraling versterkt zonder dat het opvalt.</p>
               </div>
             </div>
-             <div className='sm:w-[33.33%] w-full sm:h-[600px] h-[400px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/s3.jpg")]'>
+             <div className='sm:w-[33.33%] w-full sm:h-[600px] h-[400px] bg-cover bg-center relative bg-no-repeat  bg-[url("assets/photos/tandis3.jpg")]'>
               <div className='w-full h-full bg-black opacity-35 absolute top-0 left-0'>
      
               </div>

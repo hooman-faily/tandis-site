@@ -154,8 +154,8 @@ setOpen3(false)
                     <li  className='cursor-default relative font-brandonBold sm:text-sm' onMouseEnter={showHandler2} onMouseLeave={leaveHandler2}><div>Wie wij zijn</div>
                      {show2   ?    <ul className='bg-black sm:flex sm:flex-col font-brandonBold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
                           <Link to={"/aboutUs"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>about us</li></Link>
-                          <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>dr behnam</li></Link>
-                          <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>our team</li></Link>
+                          {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>dr behnam</li></Link> */}
+                          {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>our team</li></Link> */}
                           <Link to={"/location"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>our location</li></Link>
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>brand partners</li></Link> */}
                         </ul>:""}
@@ -165,7 +165,7 @@ setOpen3(false)
                        {show3   ?    <ul className='bg-black sm:flex sm:flex-col font-brandonBold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
                           <Link to={"/beforeAndAfterPage"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>before/after photos</li></Link>
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>patient testimonials</li></Link> */}
-                          <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>blog</li></Link>
+                          {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>blog</li></Link> */}
                         </ul>:""}
                     </li>
                 </ul>
@@ -245,8 +245,9 @@ setOpen3(false)
                        <div className='sm:w-[60%] w-full'>
                          <ul className='flex flex-col gap-3 sm:p-5 p-3'>
                           <Link to={"/aboutUs"}><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>about us</li></Link>
-                          <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>dr behnam</li></Link>
-                          <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>our team</li></Link>
+                          
+                          
+                          {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>our team</li></Link> */}
                           <Link to={"/location"}><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>our location</li></Link>
                           {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>brand partners</li></Link> */}
                         </ul>
@@ -258,7 +259,7 @@ setOpen3(false)
                           <ul className='flex flex-col gap-3 sm:p-5 p-3'>
                           <Link to={"/beforeAndAfterPage"}><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>before/after photos</li></Link>
                           {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>patient testimonials</li></Link> */}
-                          <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>blog</li></Link>
+                          {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>blog</li></Link> */}
                         </ul>
                         </div>:""}
                         <div className='absolute top-7 right-7 z-[60]'><svg onClick={closeMenuHandler} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg></div>

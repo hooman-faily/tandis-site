@@ -14,7 +14,7 @@ const BeforAndAfterPage = () => {
                                     </div>
 
                     </section>
-                     <section className='w-full bg-cover sm:bg-white bg-center relative sm:h-[800px] sm:p-0 p-5 bg-black sm:bg-[url("assets/photos/Unmatched-in-Quality-Image.jpg")]'>
+                     <section className='w-full bg-cover sm:bg-white bg-center relative sm:h-[800px] sm:p-0 p-5 bg-black sm:bg-[url("assets/photos/aboutImage.png")]'>
                       <img className='sm:hidden block' src={unmatched} alt=''/>
                                     <div className='sm:absolute hidden sm:block top-0 left-0 w-full h-full bg-black opacity-35'></div>
                                     <div className='sm:absolute top-0 left-0 w-full sm:p-8 sm:w-1/2 p-5 sm:h-full flex flex-col gap-10 items-start justify-center'>
@@ -34,9 +34,9 @@ const BeforAndAfterPage = () => {
 
                     </section>
 
-                    <BeforeAndAfter/>
+                    {/* <BeforeAndAfter/> */}
 
-                      <section className='w-full bg-cover bg-center relative h-[500px] sm:h-[800px] bg-[url("assets/photos/Get-A-Smile-Makeover-Image.jpg")]'>
+                      <section className='w-full bg-cover bg-center relative h-[500px] sm:h-[800px] bg-[url("assets/photos/laboratory2.jpg")]'>
                                     <div className='absolute top-0 left-0 w-full h-full bg-black opacity-35'></div>
                                     <div className='absolute top-0 left-0 w-full h-full p-8 sm:w-1/2 flex flex-col gap-5 items-start justify-center'>
                                         <h1 className='text-white font-brandonBold text-3xl'>GET A SMILE MAKEOVER AT APA AESTHETIC</h1>
