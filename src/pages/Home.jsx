@@ -21,11 +21,10 @@ const Home = () => {
   return (
     <Layout>
       <Swiper
-
          modules={[Autoplay, EffectFade]}
       effect="fade"
       autoplay={{
-        delay: 3000, // هر ۳ ثانیه عوض بشه
+        delay: 3000, 
         disableOnInteraction: false, // بعد از لمس یا hover هم ادامه بده
       }}
       speed={1000} // سرعت fade
