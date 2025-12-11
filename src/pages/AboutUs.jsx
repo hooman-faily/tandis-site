@@ -35,7 +35,7 @@ const AboutUs = () => {
                                 <p className='sm:w-[60%]'>Elke behandeling bij Tandis wordt ontworpen met een gezondheidsgerichte en minimaal invasieve aanpak voor een natuurlijk en langdurig resultaat.</p>
                         </section>
 
-                        <section className='w-full p-5 sm:flex sm:gap-0 sm:flex-row sm:justify-between flex flex-col gap-10'>
+                        {/* <section className='w-full p-5 sm:flex sm:gap-0 sm:flex-row sm:justify-between flex flex-col gap-10'>
               <div className='sm:w-[49%] w-full sm:h-[700px] h-[350px] bg-center bg-cover bg-[url("assets/photos/ChatOn-image-(1).jpg")] relative'>
                   <div className='absolute sm:bg-white top-[40%] left-[20%]  sm:top-[90%] sm:left-16 sm:w-[80%] sm:h-[150px] p-5 sm:flex sm:flex-row sm:justify-center sm:items-start z-20'>
                   <div className='sm:text-black text-white sm:text-lg font-sans font-bold  uppercase hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-white sm:border-black hover:border-none group inline-block'>Tandis
@@ -57,7 +57,7 @@ const AboutUs = () => {
                   </div>
               <div className='block sm:hidden absolute w-full h-full top-0 left-0 bg-black opacity-35 z-10'></div>
               </div>
-                        </section>
+                        </section> */}
 
                         <section className='w-full sm:mt-10 p-5 sm:flex sm:flex-row relative  bg-cover bg-center sm:bg-none bg-[url("assets/photos/image1-1.jpg")]'>
                 <div className='sm:w-1/2 relative'>

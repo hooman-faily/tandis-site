@@ -163,7 +163,7 @@ setOpen3(false)
                     </li>
                     <li className='cursor-default font-sans font-bold sm:text-sm relative' onMouseEnter={showHandler3} onMouseLeave={leaveHandler3}><div>Ons werk</div>
                        {show3   ?    <ul className='bg-black sm:flex sm:flex-col font-sans font-bold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
-                          <Link to={"/beforeAndAfterPage"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>before/after photos</li></Link>
+                          {/* <Link to={"/beforeAndAfterPage"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>before/after photos</li></Link> */}
                           <Link to={"/ourwork"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>Onze diesten</li></Link>
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>patient testimonials</li></Link> */}
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>blog</li></Link> */}
@@ -259,7 +259,7 @@ setOpen3(false)
                       {open3?  <div className='sm:w-[60%] w-full'>
                           <ul className='flex flex-col gap-3 sm:p-5 p-3'>
                           <Link to={"/ourwork"}><li className=' hover:text-[#A2D1DC] text-white font-sans'>Onze diesten</li></Link>
-                          <Link to={"/beforeAndAfterPage"}><li className=' hover:text-[#A2D1DC] text-white font-sans'>before/after photos</li></Link>
+                          {/* <Link to={"/beforeAndAfterPage"}><li className=' hover:text-[#A2D1DC] text-white font-sans'>before/after photos</li></Link> */}
                           {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>patient testimonials</li></Link> */}
                           {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>blog</li></Link> */}
                         </ul>

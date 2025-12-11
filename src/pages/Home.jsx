@@ -11,7 +11,7 @@ import RevealOnScroll from '../components/RevealOnScroll';
 import LazyBackground from '../components/LazyBackground';
 import img0 from '../assets/photos/image0.jpeg'
 import location from '../assets/photos/location.png';
-import doctor from '../assets/photos/ChatOn-image-(1).jpg'
+import doctor from '../assets/photos/noAi.jpeg'
 import tools from '../assets/photos/tools.jpeg'
 import ortho from '../assets/photos/ortho.jpeg'
 import tools2 from '../assets/photos/tools2.jpeg'
@@ -91,7 +91,7 @@ Ga je niet graag naar de tandarts? Dan nodigen we je uit om bij ons het verschil
                  </div>
                 </div>
                  <div className='sm:w-[33%] w-full flex flex-col sm:mt-1 mt-5 gap-2 font-sans'>
-                  <div className='sm:h-[400px] h-[300px] w-full'> <img className='h-full w-full object-cover' src={doctor} alt='artistry'/></div>
+                  <div className='sm:h-[400px] h-[300px] w-full'> <img className='h-full w-full object-cover' src={doctor} alt='doctor'/></div>
                     <div className='w-full sm:p-3 p-3'>
                          <h1 className='text-xl font-sans font-bold uppercase'><Link className='hover:text-[#A2D1DC]'>Een Nieuwe Standaard van Kwaliteit</Link></h1>
                   <p className=''>Met zorg ontworpen en met precisie uitgevoerd — ervaar tandheelkunde waarbij kwaliteit geen belofte is, maar de basis.</p>
