@@ -63,7 +63,7 @@ Of het gaat om subtiele verbeteringen of een volledige smile makeover — wij st
       </SwiperSlide>
 
          <SwiperSlide className='!w-full sm:!h-[700px] !h-[500px] !relative'>
-         <img className='w-full h-full  !object-cover' src={pic3} alt=''/>
+         <img className='w-full h-full object-cover sm:object-center object-right' src={pic3} alt=''/>
           <div className='absolute z-10 top-0 left-0 w-full h-full flex flex-col justify-end items-start p-3 sm:p-20 '>
           <h1 className='text-white font-sans text-xl font-bold sm:text-2xl'>Restauratieve tandheelkunde</h1>
           <p className='text-white font-sans text-md sm:text-xl'>Restauratieve zorg bij Tandis is gericht op het herstellen van gezondheid, functie en sterkte van beschadigde tanden.

@@ -37,7 +37,7 @@ const Home = () => {
       >
 
       <SwiperSlide>
-   <div className='w-full relative sm:h-[800px] h-[450px]  bg-cover bg-center sm:bg-top bg-[url("assets/photos/newImage.png")] mb-5'>
+   <div className='w-full relative sm:h-[800px] h-[450px]  bg-cover bg-center sm:bg-top bg-[url("assets/photos/smily.jpeg")] mb-5'>
         <div className='absolute top-0 left-0 w-full h-full bg-black opacity-45'></div>
         <div className='w-full h-full absolute top-0 left-0 sm:w-1/2 p-8 flex flex-col justify-end items-start gap-10 sm:gap-20'>
           <p className='font-font-sans text-white text-xl '>In Tandis Tandartspraktijk hechten wii waarde aan de specifieke behoeften van elke patient en luisteren wij daar met aandacht naar.</p>

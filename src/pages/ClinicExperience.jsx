@@ -1,14 +1,17 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import BeforeAndAfter from '../components/BeforeAndAfter'
+import welcome from '../assets/photos/welcome.jpeg'
 
 const ClinicExperience = () => {
   return (
     <Layout>
 
-    <section className='w-full bg-[#1a1a1a] flex flex-col  sm:p-5'>
+    <section className='w-full bg-[#1a1a1a] flex sm:h-[700px]  sm:flex-row flex-col  sm:p-5'>
+
+    <div className='sm:w-1/2 w-full'>
     <h1 className='w-full font-sans font-bold text-2xl text-white text-start p-5 uppercase'>Welkom bij TANDIS Dental Clinic</h1>
-    <ul className='sm:w-1/2 w-full flex flex-col gap-5 p-5'>
+    <ul className='sm:w-fulll w-full flex flex-col gap-5 p-5'>
       <li className='font-sans text-xl text-[#A2D1DC]'>Bij TANDIS is tandheelkundige zorg meer dan een behandeling—
 het is een professionele, nauwkeurige en betrouwbare ervaring.</li>
       <li className='font-sans text-xl text-[#A2D1DC]'>Ons team, met jarenlange klinische expertise en gebruik van de nieuwste technologie,
@@ -23,13 +26,15 @@ behandelingen</li>
       <li className='font-sans text-xl text-[#A2D1DC]'>Bij TANDIS geloven we dat een goede tandheelkundige ervaring begint met wetenschappelijke zorg, een juiste diagnose en een professioneel team.</li>
       <li className='font-sans text-xl text-[#A2D1DC]'></li>
     </ul>
+</div>
 
+<div className='sm:w-1/2 hidden w-full sm:flex sm:justify-center sm:items-center'><img className='w-full object-cover h-full' src={welcome} alt='tooth'></img></div>
     </section>
                 <div className='w-full sm:h-[700px] h-[500px] bg-cover bg-center sm:bg-cover sm:bg-center bg-[url("assets/photos/clinicBg.jpg")] relative'>
                     <div className='absolute w-full h-full bg-[#1a1a1a] opacity-35'></div>
                     <div className='absolute top-0 w-full h-full left-0 p-5 flex flex-col items-start justify-center gap-5'>
-                        <h1 className='uppercase text-white text-2xl font-sans font-bold'>Where Excellence Meets Innovation</h1>
-                        <p className='text-white font-sans text-xl'>Ben’s Aesthetic stands as the premier dental practice for desire-driven care and transformative outcomes.</p>
+                        {/* <h1 className='uppercase text-white text-2xl font-sans font-bold'>Where Excellence Meets Innovation</h1>
+                        <p className='text-white font-sans text-xl'>Ben’s Aesthetic stands as the premier dental practice for desire-driven care and transformative outcomes.</p> */}
                     </div>
 
                  

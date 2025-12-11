@@ -38,7 +38,7 @@ const AboutUs = () => {
                         <section className='w-full p-5 sm:flex sm:gap-0 sm:flex-row sm:justify-between flex flex-col gap-10'>
               <div className='sm:w-[49%] w-full sm:h-[700px] h-[350px] bg-center bg-cover bg-[url("assets/photos/ChatOn-image-(1).jpg")] relative'>
                   <div className='absolute sm:bg-white top-[40%] left-[20%]  sm:top-[90%] sm:left-16 sm:w-[80%] sm:h-[150px] p-5 sm:flex sm:flex-row sm:justify-center sm:items-start z-20'>
-                  <div className='sm:text-black text-white sm:text-lg font-sans font-bold  uppercase hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-white sm:border-black hover:border-none group inline-block'>meet dr.behnam
+                  <div className='sm:text-black text-white sm:text-lg font-sans font-bold  uppercase hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-white sm:border-black hover:border-none group inline-block'>Tandis
                               <span className='block h-[2px] bg-[#A2D1DC] mt-1 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100'></span>
                               </Link>
                                 
@@ -49,8 +49,7 @@ const AboutUs = () => {
 
              <div className='sm:w-[49%] w-full sm:h-[700px] h-[350px] bg-center bg-cover bg-[url("assets/photos/dental-team.jpg")] relative'>
                   <div className='absolute sm:bg-white top-[40%] left-[20%]   sm:top-[90%] sm:left-16 sm:w-[80%] sm:h-[150px] p-5 flex justify-center items-start z-20'>
-                  <div className='sm:text-black  text-white sm:text-lg font-sans font-bold  uppercase hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-white sm:border-black hover:border-none group inline-block'>meet the team
-                              <span className='block h-[2px] bg-[#A2D1DC] mt-1 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100'></span>
+                  <div className='sm:text-black  text-white sm:text-lg font-sans font-bold  uppercase hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-white sm:border-black hover:border-none group inline-block'>Maak Kennis met ons team<span className='block h-[2px] bg-[#A2D1DC] mt-1 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100'></span>
                               </Link>
                                 
                               </div>

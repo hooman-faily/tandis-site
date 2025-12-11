@@ -34,10 +34,10 @@ klinische precisie</h1>
                         <div className='sm:w-1/2 w-full  sm:flex sm:flex-col sm:justify-center sm:items-start sm:p-5  flex flex-col p-5'>   
                         <div className=' sm:border-l-[1px] sm:border-[#1a1a1a] sm:p-7 sm:flex sm:flex-col sm:gap-8 w-full p-5 flex flex-col gap-8'>
                         <q className='font-sans font-bold  text-2xl'>
-                            I always say the best veneers are undetectable; they look, feel, and function like natural teeth.
+                            De beste facings verdwijnen in je glimlach  - alleen de schoonheid blijft
 
                         </q>
-                                <p className='font-sans text-xl'>-Dr.Behnam</p>
+                                <p className='font-sans text-xl'>-Tandis</p>
                                 </div>
 
                         </div>
@@ -102,7 +102,7 @@ en dankzij vakmanschap — niet snelle oplossingen — jarenlang mooi blijft.</p
                                 <div className='sm:absolute sm:top-[85%] sm:h-[200px] sm:left-16 sm:p-10 bg-white sm:w-[80%] w-full flex flex-col justify-start items-start gap-5 p-5'>
                                     <h1 className='sm:w-full text-xl font-sans font-bold sm:text-start uppercase'>Het zijn de kleine details die het verschil maken</h1>
                                     <p className='sm:w-full sm:text-md font-sans sm:text-start'>Bij TANDIS controleren we elk contactpunt, elke lijn en elke millimeter.Die precisie zorgt voor een resultaat dat niet alleen mooi is, maar vooral duurzaam en comfortabel blijft.</p>
-                                      <div className='font-sans font-bold  uppercase sm:hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-black hover:border-none group inline-block'>view more stories
+                                      <div className='font-sans font-bold  uppercase sm:hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-black hover:border-none group inline-block'>bekijk meer verhalen
                                           <span className='block h-[2px] bg-[#A2D1DC] mt-1 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100'></span>
                                           </Link>
                                             
@@ -118,7 +118,7 @@ en dankzij vakmanschap — niet snelle oplossingen — jarenlang mooi blijft.</p
                                 <div className='sm:absolute sm:top-[85%] sm:h-[200px] sm:left-16 sm:p-10 bg-white sm:w-[80%] w-full flex flex-col justify-start items-start gap-5 p-5'>
                                     <h1 className='sm:w-full text-xl font-sans font-bold sm:text-start uppercase'>Bij TANDIS betekent mondzorg ook zelfzorg.</h1>
                                     <p className='sm:w-full sm:text-md font-sans sm:text-start'>Ons gespecialiseerde team is opgeleid om je te begeleiden in een persoonlijk behandeltraject;een traject dat zowel je mondgezondheid versterkt als je zelfvertrouwen verhoogt.</p>
-                                      <div className='font-sans font-bold  uppercase sm:hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-black hover:border-none group inline-block'>view more stories
+                                      <div className='font-sans font-bold  uppercase sm:hover:text-[#A2D1DC] '><Link className='relatrive border-b-[1px] border-black hover:border-none group inline-block'>bekijk meer verhalen
                                           <span className='block h-[2px] bg-[#A2D1DC] mt-1 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100'></span>
                                           </Link>
                                             
