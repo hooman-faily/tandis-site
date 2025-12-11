@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <div className='bg-[#1a1a1a] w-full flex flex-col gap-5'>
-            <h1 className='w-full text-white font-brandonBold text-sm text-center sm:p-5 p-5 uppercase'>Slechts één esthetiek bepaalt ons — de Tandis-esthetiek.</h1>
+            <h1 className='w-full text-white font-sans font-bold text-sm text-center sm:p-5 p-5 uppercase'>Slechts één esthetiek bepaalt ons — de Tandis-esthetiek.</h1>
  <div className='w-full text-center'>
               <Link className='' to={"/"}>
 
@@ -46,9 +46,9 @@ const Footer = () => {
 
                 <div className='w-full sm:flex sm:flex-col sm:justify-center sm:items-center sm:gap-10'>
                         <div className='sm:p-5 p-5 flex flex-col items-center justify-center'>
-                            <h1 className='text-white font-brandon hover:text-[#A2D1DC]'><Link>ANTWERPEN</Link></h1>
-                            <p className='text-white font-brandon hover:text-[#A2D1DC]'><Link>Huidevettersstraat 57-59, 2000 Antwerpen</Link></p>
-                            <p className='flex items-center justify-start'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 16.42V19.9561C21 20.4811 20.5941 20.9167 20.0705 20.9537C19.6331 20.9846 19.2763 21 19 21C10.1634 21 3 13.8366 3 5C3 4.72371 3.01545 4.36687 3.04635 3.9295C3.08337 3.40588 3.51894 3 4.04386 3H7.5801C7.83678 3 8.05176 3.19442 8.07753 3.4498C8.10067 3.67907 8.12218 3.86314 8.14207 4.00202C8.34435 5.41472 8.75753 6.75936 9.3487 8.00303C9.44359 8.20265 9.38171 8.44159 9.20185 8.57006L7.04355 10.1118C8.35752 13.1811 10.8189 15.6425 13.8882 16.9565L15.4271 14.8019C15.5572 14.6199 15.799 14.5573 16.001 14.6532C17.2446 15.2439 18.5891 15.6566 20.0016 15.8584C20.1396 15.8782 20.3225 15.8995 20.5502 15.9225C20.8056 15.9483 21 16.1633 21 16.42Z"></path></svg>: <Link className='text-white font-brandon'>0469403224</Link></p>
+                            <h1 className='text-white font-sans hover:text-[#A2D1DC]'><Link>ANTWERPEN</Link></h1>
+                            <p className='text-white font-sans hover:text-[#A2D1DC]'><Link>Huidevettersstraat 57-59, 2000 Antwerpen</Link></p>
+                            <p className='flex items-center justify-start'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 16.42V19.9561C21 20.4811 20.5941 20.9167 20.0705 20.9537C19.6331 20.9846 19.2763 21 19 21C10.1634 21 3 13.8366 3 5C3 4.72371 3.01545 4.36687 3.04635 3.9295C3.08337 3.40588 3.51894 3 4.04386 3H7.5801C7.83678 3 8.05176 3.19442 8.07753 3.4498C8.10067 3.67907 8.12218 3.86314 8.14207 4.00202C8.34435 5.41472 8.75753 6.75936 9.3487 8.00303C9.44359 8.20265 9.38171 8.44159 9.20185 8.57006L7.04355 10.1118C8.35752 13.1811 10.8189 15.6425 13.8882 16.9565L15.4271 14.8019C15.5572 14.6199 15.799 14.5573 16.001 14.6532C17.2446 15.2439 18.5891 15.6566 20.0016 15.8584C20.1396 15.8782 20.3225 15.8995 20.5502 15.9225C20.8056 15.9483 21 16.1633 21 16.42Z"></path></svg>: <a href='tel:+32469403224' className='text-white font-sans'>0469403224</a></p>
                         </div>
                       <div className='flex justify-center items-center w-full'><img className='w-[80px] h-[80px]' src={qr} alt='qr-code'/></div>
 

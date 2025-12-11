@@ -42,8 +42,8 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
   return (
     <div className='w-full mt-5 sm:p-1 p-2'>
-                <h1 className='w-full text-center font-brandonBold text-xl'>Waar Esthetiek en Duurzame Gebitsgezondheid Samenkomen</h1>
-                <p className='w-full text-center font-brandon text-lg'>Tandis combineert verfijnde esthetiek met geavanceerde mondgezondheid, voor natuurlijk evenwichtige en gezonde glimlachen met een tijdloze uitstraling.</p>
+                <h1 className='w-full text-center font-sans font-bold text-xl'>Waar Esthetiek en Duurzame Gebitsgezondheid Samenkomen</h1>
+                <p className='w-full text-center font-sans text-lg'>Tandis combineert verfijnde esthetiek met geavanceerde mondgezondheid, voor natuurlijk evenwichtige en gezonde glimlachen met een tijdloze uitstraling.</p>
                 <div className='sm:w-[80%] sm:m-auto flex flex-wrap justify-center items-center'>
                   {patients?.map(elem=>
                   

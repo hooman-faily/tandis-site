@@ -14,6 +14,7 @@ const basename = process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL 
   const AboutUs = lazy(()=>import("./pages/AboutUs"))
   const BeforAndAfterPage = lazy(()=>import("./pages/BeforAndAfterPage"))
   const Location = lazy(()=>import("./pages/Location"))
+  const OurWork = lazy(()=>import("./pages/OurWork"))
 function App() {
   return (
     <BrowserRouter basename={basename}>
@@ -29,6 +30,7 @@ function App() {
         <Route path='/aboutUs' element={<AboutUs/>}/>
         <Route path='/beforeAndAfterPage' element={<BeforAndAfterPage/>}/>
         <Route path='/location' element={<Location/>}/>
+        <Route path='/ourwork' element={<OurWork/>}/>
 
  </Route>
    </Routes>

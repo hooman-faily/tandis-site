@@ -141,9 +141,9 @@ setOpen3(false)
     {/* nav */}
     <nav className='sm:w-[60%] sm:block hidden'>
                 <ul className='sm:flex sm:justify-around uppercase'>
-                    <li onMouseEnter={showHandler} onMouseLeave={leaveHandler}  className='relative cursor-default font-brandonBold sm:text-sm' ><div>Wat wij doen</div>
+                    <li onMouseEnter={showHandler} onMouseLeave={leaveHandler}  className='relative cursor-default font-sans font-bold sm:text-sm' ><div>Wat wij doen</div>
                     
-                    {show   ?    <ul className='bg-[#1a1a1a] sm:flex sm:flex-col sm:p-7 sm:gap-7 font-brandonBold absolute sm:w-[300px] z-50'>
+                    {show   ?    <ul className='bg-[#1a1a1a] sm:flex sm:flex-col sm:p-7 sm:gap-7 font-sans font-bold absolute sm:w-[300px] z-50'>
                           <Link to={"/clinicExperience"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>Ervaring in de kliniek</li></Link>
                           <Link to={"/cosmeticDentistry"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>Cosmetische tandheelkunde</li></Link>
                           <Link to={"/porcelainVeneers"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>Porseleinen facings</li></Link>
@@ -151,19 +151,20 @@ setOpen3(false)
                         </ul>:""}
                   
                     </li>
-                    <li  className='cursor-default relative font-brandonBold sm:text-sm' onMouseEnter={showHandler2} onMouseLeave={leaveHandler2}><div>Wie wij zijn</div>
-                     {show2   ?    <ul className='bg-black sm:flex sm:flex-col font-brandonBold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
-                          <Link to={"/aboutUs"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>about us</li></Link>
+                    <li  className='cursor-default relative font-sans font-bold sm:text-sm' onMouseEnter={showHandler2} onMouseLeave={leaveHandler2}><div>Wie wij zijn</div>
+                     {show2   ?    <ul className='bg-black sm:flex sm:flex-col font-sans font-bold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
+                          <Link to={"/aboutUs"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>Over ons</li></Link>
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>dr behnam</li></Link> */}
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>our team</li></Link> */}
-                          <Link to={"/location"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>our location</li></Link>
+                          <Link to={"/location"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>onze locatie</li></Link>
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>brand partners</li></Link> */}
                         </ul>:""}
                     
                     </li>
-                    <li className='cursor-default font-brandonBold sm:text-sm relative' onMouseEnter={showHandler3} onMouseLeave={leaveHandler3}><div>Ons werk</div>
-                       {show3   ?    <ul className='bg-black sm:flex sm:flex-col font-brandonBold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
+                    <li className='cursor-default font-sans font-bold sm:text-sm relative' onMouseEnter={showHandler3} onMouseLeave={leaveHandler3}><div>Ons werk</div>
+                       {show3   ?    <ul className='bg-black sm:flex sm:flex-col font-sans font-bold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
                           <Link to={"/beforeAndAfterPage"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>before/after photos</li></Link>
+                          <Link to={"/ourwork"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>Onze diesten</li></Link>
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>patient testimonials</li></Link> */}
                           {/* <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>blog</li></Link> */}
                         </ul>:""}
@@ -225,7 +226,7 @@ setOpen3(false)
 
 
 </Link>
-                        <div className='text-white mt-3 font-brandonLight flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1 relative'><span className={open1? "cursore-pointer font-brandon text-[#A2D1DC]":"curser-pointer text-white"}>Wat wij doen
+                        <div className='text-white mt-3 font-sans flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1 relative'><span className={open1? "cursore-pointer font-sans text-[#A2D1DC]":"curser-pointer text-white"}>Wat wij doen
 </span><span>{open1 ===false ?<svg onClick={openHandler1} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler1} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</span>
                      
                         
@@ -233,31 +234,32 @@ setOpen3(false)
 
                      { open1 ===true ?  <div className='sm:w-[60%] w-full'>
                             <ul className='flex flex-col gap-3 sm:p-5  p-3'>
-                          <Link to={"/clinicExperience"}><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>Ervaring in de kliniek</li></Link>
-                          <Link to={"/cosmeticDentistry"}><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>Cosmetische tandheelkunde</li></Link>
-                          <Link to={"/porcelainVeneers"}><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>Porseleinen facings</li></Link>
-                          <Link to={"/smileMakeover"}><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>Proces van een smile-makeover</li></Link>
+                          <Link to={"/clinicExperience"}><li className='capitalize hover:text-[#A2D1DC] text-white font-sans'>Ervaring in de kliniek</li></Link>
+                          <Link to={"/cosmeticDentistry"}><li className='capitalize hover:text-[#A2D1DC] text-white font-sans'>Cosmetische tandheelkunde</li></Link>
+                          <Link to={"/porcelainVeneers"}><li className='capitalize hover:text-[#A2D1DC] text-white font-sans'>Porseleinen facings</li></Link>
+                          <Link to={"/smileMakeover"}><li className='capitalize hover:text-[#A2D1DC] text-white font-sans'>Proces van een smile-makeover</li></Link>
                         </ul>
                         </div>:""}
-                        <div className='text-white mt-3 font-brandonLight flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1'><span className={open2? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>Wie wij zijn</span>{open2 ===false ?<svg onClick={openHandler2} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler2} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</div>
+                        <div className='text-white mt-3 font-sans flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1'><span className={open2? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>Wie wij zijn</span>{open2 ===false ?<svg onClick={openHandler2} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler2} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</div>
 
                         {open2 ?
                        <div className='sm:w-[60%] w-full'>
                          <ul className='flex flex-col gap-3 sm:p-5 p-3'>
-                          <Link to={"/aboutUs"}><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>about us</li></Link>
+                          <Link to={"/aboutUs"}><li className=' hover:text-[#A2D1DC] text-white font-sans'>Over ons</li></Link>
                           
                           
                           {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>our team</li></Link> */}
-                          <Link to={"/location"}><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>our location</li></Link>
+                          <Link to={"/location"}><li className=' hover:text-[#A2D1DC] text-white font-sans'>onze locatie</li></Link>
                           {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>brand partners</li></Link> */}
                         </ul>
                        </div>
 
                         :""}
-                        <div className='text-white mt-3 font-brandonLight flex items-center justify-between sm:w-[60%] w-full p-1 sm:p-5'><span className={open3? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>Ons werk</span>{open3 ===false ?<svg onClick={openHandler3} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler3} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</div>
+                        <div className='text-white mt-3 font-sans flex items-center justify-between sm:w-[60%] w-full p-1 sm:p-5'><span className={open3? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>Ons werk</span>{open3 ===false ?<svg onClick={openHandler3} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler3} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</div>
                       {open3?  <div className='sm:w-[60%] w-full'>
                           <ul className='flex flex-col gap-3 sm:p-5 p-3'>
-                          <Link to={"/beforeAndAfterPage"}><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>before/after photos</li></Link>
+                          <Link to={"/ourwork"}><li className=' hover:text-[#A2D1DC] text-white font-sans'>Onze diesten</li></Link>
+                          <Link to={"/beforeAndAfterPage"}><li className=' hover:text-[#A2D1DC] text-white font-sans'>before/after photos</li></Link>
                           {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>patient testimonials</li></Link> */}
                           {/* <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>blog</li></Link> */}
                         </ul>
