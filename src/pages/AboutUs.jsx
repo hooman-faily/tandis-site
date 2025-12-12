@@ -89,7 +89,7 @@ const AboutUs = () => {
     >
       
       <SwiperSlide className='!w-full !p-5 sm:!h-[700px] !h-[500px] !relative'>
-            <img className='w-full  !object-cover' src={swiper1} alt=''/>
+            <img className='w-full h-full  !object-cover' src={swiper1} alt=''/>
              <div className='absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-20 '>
           <h1 className='text-white font-sans font-bold text-2xl'>Volledig op maat en opvallend natuurlijk</h1>
           <p className='text-white font-sans text-xl'>Onze benadering van handgelaagde porseleinen facings combineert digitale en analoge technieken voor een natuurlijk en duurzaam resultaat.</p>
