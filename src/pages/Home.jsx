@@ -39,17 +39,17 @@ jou van gedachten te veranderen. Jij hoort hier thuis!</span></p></div>
 
     </section>
 
-    <section className='w-full bg-[#CBEDF6] flex flex-col sm:gap-10  h-[800px] '>
+    <section className='w-full bg-[#CBEDF6] flex flex-col items-center justify-center sm:gap-10  h-[800px] '>
     <h1 className='text-[#1D605D] w-full text-center sm:text-2xl font-bold capitalize'>behandelingen</h1>
         <div className='w-full sm:flex sm:flex-row flex flex-col sm:gap-20 gap-10 p-8'>
-          <div className='w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] border-2 rounded-lg border-white'><img className='w-full h-full rounded-lg object-cover' src={hay1} alt=''/></div>
-        <div className='w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] border-2 rounded-lg border-white'><img className='w-full h-full rounded-lg object-cover' src={hay2}  alt=''/></div>
+          <div className=' sm:w-[400px] sm:h-[400px] border-2 rounded-lg border-white'><img className='w-full h-full rounded-lg object-cover' src={hay1} alt=''/></div>
+        <div className='sm:w-[400px] sm:h-[400px] border-2 rounded-lg border-white'><img className='w-full h-full rounded-lg object-cover' src={hay2}  alt=''/></div>
         </div>
 
     </section>
 
     <section className='w-full flex flex-col sm:gap-10  h-[500px] bg-right bg-cover sm:bg-center bg-[url("assets/photos/arrow.png")] relative'>
-<h1 className='w-full text-center flex justify-center items-center font-bold  text-[#1D605D] text-md sm:text-xl'>voel je goed in je vel met een gezonde,stralende glimlach</h1>
+<h1 className='w-full text-center flex justify-center items-center font-bold sm:p-0 p-1  text-[#1D605D] text-md sm:text-xl'>voel je goed in je vel met een gezonde,stralende glimlach</h1>
      
 <div className='sm:w-[50%] w-full sm:p-1 p-3 m-auto flex flex-col justify-center items-center gap-10'>
  
