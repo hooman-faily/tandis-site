@@ -26,6 +26,8 @@ const Home = () => {
 
   return (
     <Layout>
+ 
+    <button className='min-w-[190px] font-bold rounded-lg text-sm shadow-xl bg-[#1D256C] uppercase p-5 text-white fixed z-50 bottom-14 right-4'><a target='_blank' rel="noopener noreferrer"href='https://www.doctena.be/nl/specialiteit/tandarts/praktijk-tandis-2031798#25279'>maak een afpsraak</a></button>
 
     <section className='sm:w-full bg-[#CBEDF6] sm:h-[700px] h-[700px] flex justify-center items-center relative'>
     <div className='sm:w-[500px] sm:h-[400px] sm:absolute left-[20%] top-[20%]'><div className='w-full h-full relative'><img className='w-full h-full object-cover' src={smilePointing} alt='smile'/>
@@ -40,16 +42,16 @@ jou van gedachten te veranderen. Jij hoort hier thuis!</span></p></div>
     </section>
 
     <section className='w-full bg-[#CBEDF6] flex flex-col items-center justify-center sm:gap-10  h-[800px] '>
-    <h1 className='text-[#1D605D] w-full text-center sm:text-2xl font-bold capitalize'>behandelingen</h1>
+    <h1 id='about' className='text-[#1D605D] w-full text-center sm:text-2xl font-bold capitalize'>behandelingen</h1>
         <div className='w-full sm:flex sm:flex-row flex flex-col items-center justify-center sm:gap-20 gap-5 p-8'>
           
         <div className='flex flex-col gap-5'>
-        <p className='font-bold text-[#1D605D]'>Algemene Tandheekunde</p><img className=' w-[300px] h-[300px] rounded-lg object-cover' src={hay2}  alt=''/>
+        <p className='font-bold text-[#1D605D] text-center capitalize'>Algemene Tandheekunde</p><img className=' w-[300px] h-[300px] rounded-lg object-cover' src={hay2}  alt=''/>
        
            
         </div>
         <div className='flex flex-col gap-5'>
-         <p className='font-bold text-[#1D605D]'>orthodontie</p>
+         <p className='font-bold text-[#1D605D] text-center capitalize'>orthodontie</p>
         <img className='w-[300px] h-[300px] rounded-lg object-cover' src={hay1} alt=''/>
            
             
@@ -59,21 +61,21 @@ jou van gedachten te veranderen. Jij hoort hier thuis!</span></p></div>
     </section>
 
     <section className='w-full flex flex-col sm:gap-10  h-[500px] bg-right bg-cover sm:bg-center bg-[url("assets/photos/arrow.png")] relative'>
-<h1 className='w-full text-center flex justify-center items-center font-bold sm:p-0 p-1  text-[#1D605D] text-md sm:text-xl'>voel je goed in je vel met een gezonde,stralende glimlach</h1>
+<h1 className='w-full text-center flex justify-center items-center font-bold sm:p-0 p-1  text-[#1D605D] text-md sm:text-xl'>Voel je goed in je vel met een gezonde,stralende glimlach</h1>
      
 <div className='sm:w-[50%] w-full sm:p-1 p-3 m-auto flex flex-col justify-center items-center gap-10'>
  
       <div className='w-full flex gap-5 items-center justify-start'>
         <img src={ten} alt='ten-plus'/>
-        <p className='text-[#6D9D9F] font-bold sm:text-xl'>jarenlange ervaring</p>
+        <p className='text-[#6D9D9F] font-bold sm:text-xl'>Jarenlange ervaring</p>
       </div>
       <div className='w-full flex gap-5 items-center justify-start'>
         <img src={reactLogo} alt='react-logo'/>
-        <p className='text-[#6D9D9F] font-bold sm:text-xl'>watenschappelijk gebaseerde kennis en zorg</p>
+        <p className='text-[#6D9D9F] font-bold sm:text-xl'>Watenschappelijk gebaseerde kennis en zorg</p>
       </div>
         <div className='w-full flex gap-5 items-center justify-start'>
         <img src={tooth} alt='ttooth-logo'/>
-        <p className='text-[#6D9D9F] font-bold sm:text-xl'>patiënt gerichte zorg</p>
+        <p className='text-[#6D9D9F] font-bold sm:text-xl'>Patiënt gerichte zorg</p>
       </div>
 
 

@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-const Header = () => {
+import { ScrollContext } from './ScrollContext'
+const Header = ({id}) => {
 
 const [show,setShow]=useState(false)
 const [show2,setShow2]=useState(false)
@@ -13,6 +14,7 @@ const [openMenu,setOpenMenu]=useState(false)
 const callPhone = () => {
   window.location.href = "tel:+32469403224";
 };
+const { scrollToId } = useContext(ScrollContext);
 
 
 const openMenuHandler=()=>{
@@ -208,7 +210,7 @@ setOpen3(false)
                         </ul>:""} */}
                   
                     </li>
-                    <li  className='cursor-pointer relative font-sans font-bold sm:text-sm'  onMouseEnter={showHandler2} onMouseLeave={leaveHandler2}><div>Behandelingen</div>
+                    <li  className='cursor-pointer relative font-sans font-bold sm:text-sm'  onMouseEnter={showHandler2} onMouseLeave={leaveHandler2}><div onClick={() => scrollToId("about")}>Behandelingen</div>
                      {/* {show2   ?    <ul className='bg-black sm:flex sm:flex-col font-brandonBold sm:p-5 sm:gap-7 absolute sm:w-[300px] z-50'>
                           <Link to={"/aboutUs"}><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>about us</li></Link>
                           <Link><li className='uppercase hover:text-[#A2D1DC] text-white font-bold'>dr behnam</li></Link>
