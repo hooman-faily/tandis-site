@@ -78,7 +78,7 @@ setOpen3(false)
 
     <div className='sm:w-full sm:flex bg-[#4EC3E0] text-white  sm:justify-between sm:items-center sm:p-5 font-smilbold sm:text-lg relative flex items-center justify-between p-5 gap-10'>
     {/* logo */}
-    <div className='sm:w-[10%]'><Link to={"/"}>
+    <div className='sm:w-[12%]'><Link to={"/"}>
 
 
 
@@ -196,7 +196,7 @@ setOpen3(false)
 
 </Link></div>
     {/* nav */}
-    <nav className='sm:w-[60%] sm:block hidden'>
+    <nav className='sm:w-[60%] lg:block hidden'>
                 <ul className='sm:flex sm:justify-around uppercase'>
                     <li onMouseEnter={showHandler} onMouseLeave={leaveHandler}  className='relative cursor-pointer font-sans font-bold sm:text-sm' ><div>Over ons</div>
                     
@@ -340,7 +340,7 @@ setOpen3(false)
 {/* <span>{open1 ===false ?<svg onClick={openHandler1} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler1} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</span> */}
 
 </Link>
-                        <div className='text-white mt-3 font-sans flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1 relative '><Link className="text-white">Over ons</Link></div>
+                        <div className='text-white mt-3 font-sans flex items-center justify-between w-full  sm:w-[60%] sm:p-5 p-1 relative '><Link className="text-white">Over ons</Link></div>
 
                      {/* { open1 ===true ?  <div className='sm:w-[60%] w-full'>
                             <ul className='flex flex-col gap-3 sm:p-5  p-3'>

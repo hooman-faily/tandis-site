@@ -28,10 +28,10 @@ const Home = () => {
     <Layout>
 
     <section className='sm:w-full bg-[#CBEDF6] sm:h-[700px] h-[700px] flex justify-center items-center relative'>
-    <div className='sm:w-[500px] sm:h-[400px]   sm:absolute left-[20%] top-[20%]'><div className='w-full h-full relative'><img className='w-full h-full object-cover' src={smilePointing} alt='smile'/>
-      <div className='bg-[#4EC3E0]  sm:w-[450px]  sm:absolute top-[-20%] left-[80%] flex justify-center items-center  text-white text-xl p-5'><p className='h-full w-full'>
+    <div className='sm:w-[500px] sm:h-[400px] sm:absolute left-[20%] top-[20%]'><div className='w-full h-full relative'><img className='w-full h-full object-cover' src={smilePointing} alt='smile'/>
+      <div className='bg-[#4EC3E0]  lg:w-[400px]  lg:absolute top-[-20%] left-[80%] flex justify-center items-center  text-white text-xl p-5'><p className='h-full w-full'>
       <p>Welkom</p>
-<span className='sm:text-lg text-sm'>Tandis is een moderne tandartspraktijk in hartje van Antwerpen. We zijn gepassioneerd over
+<span className='flex sm:text-lg text-sm'>Tandis is een moderne tandartspraktijk in hartje van Antwerpen. We zijn gepassioneerd over
 onze zachte en comfortabele werkwijze waardoor mensen van alle leeftijden met plezier naar de
 tandarts komen. Als je niet graag naar de tandarts gaat, zouden we graag de kans krijgen om
 jou van gedachten te veranderen. Jij hoort hier thuis!</span></p></div>
@@ -41,15 +41,18 @@ jou van gedachten te veranderen. Jij hoort hier thuis!</span></p></div>
 
     <section className='w-full bg-[#CBEDF6] flex flex-col items-center justify-center sm:gap-10  h-[800px] '>
     <h1 className='text-[#1D605D] w-full text-center sm:text-2xl font-bold capitalize'>behandelingen</h1>
-        <div className='w-full sm:flex sm:flex-row flex flex-col items-center justify-center sm:gap-20 gap-10 p-8'>
+        <div className='w-full sm:flex sm:flex-row flex flex-col items-center justify-center sm:gap-20 gap-5 p-8'>
           
-        <div className='sm:w-[300px] sm:h-[300px] border-2 rounded-lg border-white relative'><img className='w-full h-full rounded-lg object-cover' src={hay2}  alt=''/>
-        <div className='w-full h-full bg-black absolute top-0 left-0 opacity-15 z-0'></div>
-           <p className='absolute font-bold text-[#1D605D] top-2 left-[60%] z-20'>Algemene Tandheekunde</p>
+        <div className='flex flex-col gap-5'>
+        <p className='font-bold text-[#1D605D]'>Algemene Tandheekunde</p><img className=' w-[300px] h-[300px] rounded-lg object-cover' src={hay2}  alt=''/>
+       
+           
         </div>
-        <div className=' sm:w-[300px] sm:h-[300px] border-2 rounded-lg border-white relative'><img className='w-full h-full rounded-lg object-cover' src={hay1} alt=''/>
-            <p className='absolute font-bold text-[#1D605D] top-2 left-[65%]'>orthodontie</p>
-             <div className='w-full h-full bg-black absolute top-0 left-0 opacity-15 z-0'></div>
+        <div className='flex flex-col gap-5'>
+         <p className='font-bold text-[#1D605D]'>orthodontie</p>
+        <img className='w-[300px] h-[300px] rounded-lg object-cover' src={hay1} alt=''/>
+           
+            
         </div>
         </div>
 
