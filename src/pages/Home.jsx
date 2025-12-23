@@ -19,7 +19,7 @@ import reactLogo from '../assets/photos/reactLogo.png'
 import ten from '../assets/photos/ten.png'
 import tooth from '../assets/photos/tooth.png'
 import hay1 from '../assets/photos/hay1.jpeg'
-import hay2 from '../assets/photos/hay2.jpeg'
+import hay2 from '../assets/photos/hay2.jpg'
 const Home = () => {
 
 
@@ -41,9 +41,16 @@ jou van gedachten te veranderen. Jij hoort hier thuis!</span></p></div>
 
     <section className='w-full bg-[#CBEDF6] flex flex-col items-center justify-center sm:gap-10  h-[800px] '>
     <h1 className='text-[#1D605D] w-full text-center sm:text-2xl font-bold capitalize'>behandelingen</h1>
-        <div className='w-full sm:flex sm:flex-row flex flex-col sm:gap-20 gap-10 p-8'>
-          <div className=' sm:w-[400px] sm:h-[400px] border-2 rounded-lg border-white'><img className='w-full h-full rounded-lg object-cover' src={hay1} alt=''/></div>
-        <div className='sm:w-[400px] sm:h-[400px] border-2 rounded-lg border-white'><img className='w-full h-full rounded-lg object-cover' src={hay2}  alt=''/></div>
+        <div className='w-full sm:flex sm:flex-row flex flex-col items-center justify-center sm:gap-20 gap-10 p-8'>
+          
+        <div className='sm:w-[300px] sm:h-[300px] border-2 rounded-lg border-white relative'><img className='w-full h-full rounded-lg object-cover' src={hay2}  alt=''/>
+        <div className='w-full h-full bg-black absolute top-0 left-0 opacity-15 z-0'></div>
+           <p className='absolute font-bold text-[#1D605D] top-2 left-[60%] z-20'>Algemene Tandheekunde</p>
+        </div>
+        <div className=' sm:w-[300px] sm:h-[300px] border-2 rounded-lg border-white relative'><img className='w-full h-full rounded-lg object-cover' src={hay1} alt=''/>
+            <p className='absolute font-bold text-[#1D605D] top-2 left-[65%]'>orthodontie</p>
+             <div className='w-full h-full bg-black absolute top-0 left-0 opacity-15 z-0'></div>
+        </div>
         </div>
 
     </section>

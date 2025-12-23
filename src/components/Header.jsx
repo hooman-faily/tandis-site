@@ -254,7 +254,7 @@ setOpen3(false)
 
     {/* open menu */}
   
-<div className={openMenu? "bg-[#4EC3E0] translate-x-0 transform transition-all ease-linear  fixed z-50 top-0 right-0 h-dvh w-dvw  p-10 flex flex-col items-center": "bg-[#4EC3E0] translate-x-full  transform transition-all  ease-linear  fixed top-0 right-0 h-dvh w-dvw z-[60] p-10 flex flex-col items-center" }>
+<div className={openMenu? "bg-[#4EC3E0] translate-x-0 transform transition-all ease-linear  fixed z-50 top-0 right-0 h-dvh w-dvw  p-10 flex flex-col items-center uppercase": "bg-[#4EC3E0] translate-x-full  transform transition-all  ease-linear  fixed top-0 right-0 h-dvh w-dvw z-[60] p-10 flex flex-col items-center uppercase" }>
                         <Link onClick={closeMenuHandler}  to={"/"}>
                         
 
@@ -340,7 +340,7 @@ setOpen3(false)
 {/* <span>{open1 ===false ?<svg onClick={openHandler1} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler1} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</span> */}
 
 </Link>
-                        <div className='text-white mt-3 font-sans flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1 relative'><Link className="text-white">Over ons</Link></div>
+                        <div className='text-white mt-3 font-sans flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1 relative '><Link className="text-white">Over ons</Link></div>
 
                      {/* { open1 ===true ?  <div className='sm:w-[60%] w-full'>
                             <ul className='flex flex-col gap-3 sm:p-5  p-3'>
