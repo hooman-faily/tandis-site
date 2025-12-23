@@ -352,7 +352,7 @@ setOpen3(false)
                           <Link to={"/smileMakeover"}><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>Proces van een smile-makeover</li></Link>
                         </ul>
                         </div>:""} */}
-                        <div className='text-white mt-3 font-sans flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1'><Link className=" text-white">Behandelingen</Link></div>
+                        <div className='text-white mt-3 font-sans flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1'><Link onClick={() => {scrollToId("about"); closeMenuHandler()}} className=" text-white">Behandelingen</Link></div>
 
                         {/* {open2 ?
                        <div className='sm:w-[60%] w-full'>
